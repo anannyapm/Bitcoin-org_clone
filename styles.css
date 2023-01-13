@@ -91,3 +91,433 @@ body {
     color:black;
 
 }
+
+
+.hero-page-main-container{
+    background-color: #fff;
+    min-height: 400px;
+}
+
+.main-content{
+    padding:130px 30px 50px 30px;
+}
+
+.sub-content-container{
+    margin:0 auto;
+    padding:0 30px;
+    max-width: 1230px;  /*so that maximum width on resizing page wont go beyond max-width*/
+}
+
+.text-element{
+    color:#1C1F30;
+    max-width: 770px;
+    margin: 0 auto 45px;
+    font-size: 321.5%;
+    text-align: center;
+}
+
+.subcontent-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.highlight{
+    background: #FF9500;
+    color: #fff;
+    border:1px;
+  
+}
+.button-content{
+    text-decoration: none;
+    display: inline-block;
+    border-radius:1px;
+    padding: 15px 25px;
+    width: 290px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.button-content:not(:first-child){
+    color: #FF7E00;
+    background: #fff;
+    border: 1px solid #FF7E00;
+    margin-left: 6px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0 auto;
+    
+}
+.video img{
+    width:50px;
+    height:auto;
+    margin:0 10px;
+
+}
+
+.video-btn{
+    
+    color:#1C1F30;
+    border:none;
+    background-color: transparent;
+    font-size: 100%;
+
+
+}
+
+/*main overview section*/
+
+.main-overview{
+    
+    
+    padding: 375px 0px 130px;
+    background: url(https://bitcoin.org/img/hero/overview-bg.svg?1528322191) top no-repeat;
+    background-size:cover;
+    text-align: center;
+    
+}
+
+.sub-overview-container{
+    max-width:1230px;
+    margin:0 auto;
+    padding:0 30px;
+}
+
+
+.overview-title{
+    font-size: 162.5%;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.overview-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.card img{
+    min-height: 45px;
+    margin-bottom: 20px;
+}
+
+.card{
+    text-decoration: none;
+    background-color: black;
+    width:260px;
+    height:200px;
+    padding:40px 30px 0px 30px ;
+    margin:0 8px;
+    text-align: center;
+    box-sizing:border-box;
+
+
+}
+
+.card-title{
+    color:white;
+    margin: 0;
+    font-size: 137.5%;
+    line-height:2
+}
+
+.card-learn-more{
+    font-size: 100%;
+    margin:0;
+    color: #9D9D9D;
+}
+
+.arrow-down{
+    display: block;
+    width:50px;
+    height:50px;
+    transform: rotate(45deg) translate(-25%, 25%);
+    background: #13161f;;
+    position: relative;
+    left:50%;
+    top:154px;
+    
+}
+
+.arrow-down img{
+    position: relative;
+    top:0;
+    left:0;
+    transform: rotate(-45deg) translate(-70%, 0%);
+}
+
+/*Details section*/
+
+.main-details{
+    padding:100px 0 70px 0;
+
+}
+
+.sub-details-container{
+    max-width: 1230px;
+    margin:0 auto;
+    padding:0 30px;
+}
+
+.details-title{
+    font-size: 162.5%;
+    color: #FF7E00;
+    text-align: center;
+    margin:0;
+    margin-bottom:50px;
+}
+
+.text-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text{  
+    margin: 0;  
+}   
+.left-text p{
+    margin:0;
+    max-width: 67%;
+    font-size: 125%;
+    text-align: left;
+    color: #4D5060;
+    margin-bottom: 90px;
+
+}
+
+
+.advantage-list{
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+
+}
+
+.item{
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.item img{
+    width:30px;
+    height:30px;
+    padding-right:25px;
+}
+
+.item p{
+    margin:0;
+    padding:0;
+    font-weight: 600;
+    font-size: 106.25%;
+    color: #13161F;
+    line-height: 1.5em;
+}
+
+.bold-text{
+    font-weight: 600;
+}
+
+.blue-text a{
+    color: #3490E6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.get-started-button{
+    text-align: center;
+}
+
+.right-img{
+    border:0;
+}
+
+
+.class-btn{
+    background:black;
+    display:inline-block;
+    width:282px;
+    padding:16px 25px;
+    font-weight: 600;
+    font-size: 100%;
+    color:white;
+    border-radius: 1px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer
+}
+
+/*Footer*/
+
+.footer-container{
+    background-image: url("https://bitcoin.org/img/hero/footer-bg.svg?1528322191");
+    background-position-y:top;
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-color: #13161F;
+    padding-top: 60px;
+}
+
+.footer-sub-container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+}
+
+.logo-footer{
+    text-align: center;
+    display: block;
+
+}
+.space{
+    margin-bottom: 155px;
+}
+
+.footer-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-button-box{
+    display: flex;
+}
+
+.donate-button-box p{
+    margin:0;
+    color:white;
+    font-weight: 600;
+    text-align: left;
+    line-height: 42px;
+
+}
+
+.donate-button-box .donate-btn{
+    background: #FF9500;
+    color: #fff;
+    border: 1px;
+    padding: 7px 16px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.donate-txt{
+    margin:0;
+    margin-top:5px;
+}
+.donate-txt .donate-link{
+    margin:0;
+    margin-top: 5px;
+    color:#3490E6;
+}
+
+.footer-menu-container{
+    display: flex;
+    
+    
+}
+
+.menu-column{
+    margin-left: 60px;
+}
+
+.heading{
+    font-size: 100%;
+    color: #FFFFFF;
+    line-height: 52px;
+    font-weight: 600;
+    padding:0;
+    margin:0;
+}
+.sub-texts{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color:#9D9D9D;
+}
+
+.sub-texts li{
+    list-style: none;
+    
+
+}
+
+.sub-texts li a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 106.25%;
+    line-height: 34px;
+}
+
+.final-sub-footer{
+    margin-top: 55px;
+    padding: 25px 0;
+    background: #090C14;
+}
+
+.final-sub-container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-section{
+    color:#9D9D9D
+}
+
+.left-section p a{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+.right-section{
+    text-align: left;
+    margin-left:550px;
+}
+
+.network{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#9D9D9D
+}
+
+.language-title a img{
+    position: relative;
+    top: 50%;
+    right: 0;
+    padding-left: 3px;
+    width: 10px;
+    height: auto;
+    filter: invert(100);
+}
+
+.language{
+    margin:0;
+    margin-left:50px;
+    padding:0;
+}
+.language-title{
+    list-style: none;
+
+}
+
+.language-title a{
+    text-decoration: none;
+    color:white;
+}
+
+.language-title a img{
+    padding-right:35px;
+}
