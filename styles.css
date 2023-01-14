@@ -17,6 +17,7 @@ body {
     border:none; /* to remove border of button*/
     width:100%;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .header-main-container{
@@ -93,6 +94,7 @@ body {
 }
 
 
+/*Main hero Page*/
 .hero-page-main-container{
     background-color: #fff;
     min-height: 400px;
@@ -165,6 +167,7 @@ body {
     border:none;
     background-color: transparent;
     font-size: 100%;
+    cursor: pointer;
 
 
 }
@@ -355,6 +358,9 @@ body {
     cursor:pointer
 }
 
+.class-btn:hover{
+    background: #333743;
+}
 /*Footer*/
 
 .footer-container{
@@ -407,7 +413,7 @@ body {
     padding: 7px 16px;
     margin-left: 30px;
     text-align: center;
-
+    cursor: pointer;
 }
 
 .donate-txt{
@@ -491,6 +497,10 @@ body {
     justify-content: space-between;
     align-items: center;
     color:#9D9D9D
+}
+
+.status-msg{
+    cursor: pointer;
 }
 
 .language-title a img{
