@@ -65,16 +65,16 @@ body {
 }
 
 .menu-title img, .lang img{
-    position: relative;
+    /*position: relative;
     top: 50%;
-    right:0;
+    right:0;*/
     padding-left: 3px;;
     width: 10px;
     height: auto;
 }
 
 .menu-title img:hover{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
 }
 
 .lang-bar{
